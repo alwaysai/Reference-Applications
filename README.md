@@ -1,12 +1,14 @@
-# alwaysAI Reference Applications
+<p align="center"><img width=60% src="https://i.imgur.com/ZdcxVrn.png"></p>
+<p align="center" style="font-weight:bold;font-size:26px;">Reference Applications</p>
 
-* [Starter Apps](#starter-apps)
-* [NVIDIA Apps](#nvidia-apps)
-* [Camera Apps](#camera-apps)
-* [Streaming Apps](#streaming-apps)
+### Table of Contents
+* [Starter Apps](#starter-apps) 
+* [NVIDIA Apps](#nvidia-apps) 
+* [Camera Apps](#camera-apps) 
+* [Streaming Apps](#streaming-apps) 
 * [Example Apps](#example-apps)
 
-## Starter Apps
+## Starter Apps :green_book:
 
 | App | Description |
 | --- | ----------- |
@@ -17,7 +19,7 @@
 | [Pose Estimator](https://github.com/alwaysai/pose-estimator) | Use [Pose Estimation](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#pose-estimation) to determine human poses in realtime. Human Pose returns a list of key points indicating joints that can be used for applications such as activity recognition and augmented reality. |
 | [Semantic Segmentation VOC](https://github.com/alwaysai/semantic-segmentation-voc) | Perform [Semantic Segmentation](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#semantic-segmentation) on a series of images using a model trained on the [Pascal VOC](http://host.robots.ox.ac.uk/pascal/VOC/) dataset. |
 
-## NVIDIA Apps
+## NVIDIA Apps :rocket:
 
 | App | Description |
 | --- | ----------- |
@@ -26,7 +28,7 @@
 | [NVIDIA Semantic Segmentation](https://github.com/alwaysai/nvidia-semantic-segmentation) | This alwaysAI app performs semantic segmentation on a video clip of a driving scene on NVIDIA Jetson devices. |
 | [TensorRT Applications](https://github.com/alwaysai/tensorrt-hacky-hour) | This alwaysAI applications set uses TensorRT binaries to do the local inferencing on a NVIDIA Jetson device, these binaries can be found in the alwaysAI model catalog.  The model will start with TRT and end with the Jetson device name it should be run on, for example nano.  These binaries are the most efficient way to do inferencing on NVIDIA Jetson device.  Currently alwaysAI supports TensorRT binaries for Jetson Nano, TX2 and Xavier NX. |
 
-## Camera Apps
+## Camera Apps :camera_flash:
 
 | App | Description |
 | --- | ----------- |
@@ -35,7 +37,7 @@
 | [Oak Starter Apps](https://github.com/alwaysai/oak_starter_apps) | This repository contains a collection of starter apps for using OAK cameras with the alwaysAI platform. |
 | [RealSense Object Detector](https://github.com/alwaysai/realsense-object-detector) | Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) to detect objects and the [RealSense camera](https://alwaysai.co/docs/edgeiq_api/real_sense.html) to get the distances in meters to those objects in real-time. The types of objects detected can be changed by selecting different models. |
 
-## Streaming Apps
+## Streaming Apps :clapper:
 
 | App | Description |
 | --- | ----------- |
@@ -47,7 +49,7 @@
 | [Video Streamer Using Multiple Containers](https://github.com/alwaysai/video-streamer-multi-container) | This alwaysAI app performs realtime object detection and streams video and text data to a Flask-SocketIO server running in another container managed by [Docker Compose](https://docs.docker.com/compose/). |
 | [ZMQ Video Streamer](https://github.com/alwaysai/zmq-video-streamer) | This repo has two parts: an alwaysAI computer vision app which performs realtime object detection and streams video via [ZeroMQ](https://zeromq.org/languages/python/) to a Flask server, and the server to display the video stream in a browser. |
 
-## Example Apps
+## Example Apps :mag_right:
 
 | App | Description |
 | --- | ----------- |
