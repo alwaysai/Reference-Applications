@@ -1,5 +1,7 @@
 <p align="center"><img width=60% src="https://i.imgur.com/ZdcxVrn.png"></p>
-<p align="center" style="font-weight:bold;font-size:26px;">Reference Applications</p>
+<p align="center"><a href="https://alwaysai.co/docs/">Documentation</a> | <a href="https://alwaysai.co/schedule-demo">Schedule a demo</a></p>
+# Reference Applications
+The reference applications are a quick and easy way to begin using the alwaysAI platform.
 
 ### Table of Contents
 * [Starter Apps](#starter-apps) 
