@@ -1,3 +1,6 @@
+<p align="center"><img width=60% src="https://i.imgur.com/ZdcxVrn.png"></p>
+<p align="center"><a href="https://alwaysai.co/docs/">Documentation</a> | <a href="https://alwaysai.co/schedule-demo">Schedule a demo</a></p>
+
 # alwaysAI Reference Applications
 
 * [Starter Apps](#starter-apps)
@@ -10,7 +13,7 @@
 
 | App | Description |
 | --- | ----------- |
-| [Detector Tracker](https://github.com/alwaysai/detector-tracker) | Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) and [Object Tracking](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-tracking) to follow objects as they move across the frame. Detectors are resource expensive, so this combination reduces stress on the system, increasing the resulting bounding box output rate. |
+| [Detector Tracker](https://github.com/alwaysai/detector-tracker) | Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) and [Object Tracking](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-tracking) to follow unique objects as they move across the frame. |
 | [Face Detector](https://github.com/alwaysai/face-detector) | Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) to detect human faces in a real-time camera stream. |
 | [Image Classifier](https://github.com/alwaysai/image-classifier) | Use [Image Classification](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#image-classification) to classify a batch of images. The classification labels can be changed by selecting different models. |
 | [Object Detector](https://github.com/alwaysai/object-detector) | Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) to detect objects in a real-time camera stream. The types of objects detected can be changed by selecting different models. |
