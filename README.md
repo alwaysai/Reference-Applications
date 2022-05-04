@@ -4,6 +4,7 @@
 # alwaysAI Reference Applications
 
 * [Starter Apps](#starter-apps)
+* [Hailo Apps](#hailo-apps)
 * [NVIDIA Apps](#nvidia-apps)
 * [Camera Apps](#camera-apps)
 * [Streaming Apps](#streaming-apps)
@@ -20,6 +21,12 @@
 | [Pose Estimator](https://github.com/alwaysai/pose-estimator) | Use [Pose Estimation](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#pose-estimation) to determine human poses in realtime. Human Pose returns a list of key points indicating joints that can be used for applications such as activity recognition and augmented reality. |
 | [Semantic Segmentation VOC](https://github.com/alwaysai/semantic-segmentation-voc) | Perform [Semantic Segmentation](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#semantic-segmentation) on a series of images using a model trained on the [Pascal VOC](http://host.robots.ox.ac.uk/pascal/VOC/) dataset. |
 
+## Hailo Apps
+
+| App | Description |
+| --- | ----------- |
+| [Hailo Real-Time Object Detector](https://github.com/alwaysai/Hailo-Object-Detector) | This alwaysAI app performs object detection in real-time on Hailo accelerator/Co-processor. |
+
 ## NVIDIA Apps
 
 | App | Description |
@@ -27,7 +34,7 @@
 | [CUDA Applications](https://github.com/alwaysai/cuda-applications) | This alwaysAI application set use a CUDA (Compute Unified Device Architecture) interface which allows CNN models to execute on  NVIDIA  GPUs found on Jetson devices.  CUDA APIs give applications executing on the CPU direct access to NVIDIA’s GPU’s virtual instruction set and parallel computational elements. |
 | [NVIDIA Real-Time Object Detector](https://github.com/alwaysai/nvidia-realtime-object-detector) | This alwaysAI app performs object detection in real-time on NVIDIA Jetson devices. |
 | [NVIDIA Semantic Segmentation](https://github.com/alwaysai/nvidia-semantic-segmentation) | This alwaysAI app performs semantic segmentation on a video clip of a driving scene on NVIDIA Jetson devices. |
-| [TensorRT Applications](https://github.com/alwaysai/tensorrt-hacky-hour) | This alwaysAI applications set uses TensorRT binaries to do the local inferencing on a NVIDIA Jetson device, these binaries can be found in the alwaysAI model catalog.  The model will start with TRT and end with the Jetson device name it should be run on, for example nano.  These binaries are the most efficient way to do inferencing on NVIDIA Jetson device.  Currently alwaysAI supports TensorRT binaries for Jetson Nano, TX2 and Xavier NX. |
+| [TensorRT Applications](https://github.com/alwaysai/tensorrt-hacky-hour) | This alwaysAI applications set uses TensorRT binaries to do the local inferencing on a NVIDIA Jetson device, these binaries can be found in the alwaysAI model catalog.  The model will start with TRT and end with the Jetson device name it should be run on, for example nano.  These binaries are the most efficient way to do inferencing on NVIDIA Jetson device.  Currently alwaysAI supports TensorRT binaries for Jetson Nano, Xavier NX, and AGX Xavier. |
 
 ## Camera Apps
 
@@ -72,7 +79,7 @@
 | [Jumping Jacks Counter](https://github.com/alwaysai/jumping-jacks-counter) | This app counts jumping jacks for a single person on a real-time video stream or a video file. The app defaults to the `TensorRT` engine on NVIDIA Jetson devices, and the `DNN` engine elsewhere. |
 | [Kalman Tracking Hacky Hour 05/12/2021](https://github.com/alwaysai/kalman_hackyhour) | Source for the May 12th Hacky Hour! This app demonstrates how to use the [Kalman Tracker](https://alwaysai.co/docs/edgeiq_api/object_tracking.html#edgeiq.object_tracking.KalmanTracker) to track objects in motion. |
 | [License Plate Tracker App](https://github.com/alwaysai/license-plate-detector) | This app uses object detection and employs a centroid tracker to monitor a frame for license plates and vehicles. Please note that the model used in this app does not detect the content or read the characters from a license plate. Pair this app with an OCR library to do so. |
-| [License Plate OCR App](https://github.com/alwaysai/license-plate-ocr) | This app uses object detection and employs a correlation tracker to monitor a frame for license plates and vehicles and then uses an OCR library to read the license plates. This app will work on development machines, such as MacOS and Windows, but not on ARM 64 architectures due to the dependency on PyTorch. |
+| [License Plate OCR App](https://github.com/alwaysai/license-plate-ocr) | This app uses object detection and employs a centroid tracker to monitor a frame for license plates and vehicles and then uses an OCR library to read the license plates. This app will work on development machines, such as MacOS and Windows, but not on ARM 64 architectures due to the dependency on PyTorch. Note that we have provided the model file that EasyOCR provides at runtime to avoid model download issues. We have only provided the necessary files for the English option. If you would like to explore other uses of the EasyOCR library, please see the source: https://github.com/JaidedAI/EasyOCR/tree/393c2d966aa37160bcfdef5f55ba50daff994409. There is a link to the JaidedAI Model Hub on the repository's README. |
 | [Classifier based Image Sorter](https://github.com/alwaysai/multiple-classifiers-image-sorter) | This app can use any number of image classifiers to detect any number of target labels, then sort those images into 1 of 2 folders if the target label is detected. |
 | [Multiple Object Detectors Sample App](https://github.com/alwaysai/multiple-object-detectors) | This app utilizes two object detection models, with the option of adding additional detection models. This may be helpful for including models that comprise very different libraries. In this example, one model detects numerous objects of small to medium size, and the other has a more limited library but detects some larger objects, such as airplanes, trains, and sofas. As there is some overlap between models, for instance they both detect people, you can compare the prediction confidences. Additionally, the output for each model appears in a separate video frame. |
 | [Object Detection Server/Client](https://github.com/alwaysai/object-detection-server-client) | Server app sets up an alwaysAI model to run on a device where images can be sent and inferenced. The server then returns the marked-up image to the client, which is stored in the `inferenced` folder. |
