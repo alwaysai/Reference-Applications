@@ -42,9 +42,6 @@
 
 | App | Description |
 | --- | ----------- |
-| [Eyecloud Starter App](https://github.com/alwaysai/eyecloud-starter-app) | A basic application to get you started working with Eyecloud Cameras. |
-| [oak-cameras-repo](https://github.com/alwaysai/oak-cameras) | The Oak-1 and Oak-D cameras have built-in chips for artificial intelligence, eliminating the security, latency and cost issues found in cloud based inferencing. The cameras can determine where objects are located in the space around them, as well as their trajectory, in real time. The cameras features built-in Intel Myriad X chips for running the machine learning inferencing locally.  This Repo shows you how to use these amazing cameras with the alwaysAI platform providing powerful easy to use option for them to create commercial products. |
-| [Oak Starter Apps](https://github.com/alwaysai/oak_starter_apps) | This repository contains a collection of starter apps for using OAK cameras with the alwaysAI platform. |
 | [RealSense Object Detector](https://github.com/alwaysai/realsense-object-detector) | Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) to detect objects and the [RealSense camera](https://alwaysai.co/docs/edgeiq_api/real_sense.html) to get the distances in meters to those objects in real-time. The types of objects detected can be changed by selecting different models. |
 
 ## Streaming Apps
